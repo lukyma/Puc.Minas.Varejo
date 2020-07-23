@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Puc.Minas.Varejo.Console</AssemblyName>
+    <RootNamespace>Puc.Minas.Varejo.ConsoleApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Puc.Minas.Varejo.Application\Puc.Minas.Varejo.Application.csproj" />
+    <ProjectReference Include="..\Puc.Minas.Varejo.Infra\Puc.Minas.Varejo.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

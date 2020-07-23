@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Puc.Minas.Varejo.Application\Puc.Minas.Varejo.Application.csproj" />
+    <ProjectReference Include="..\Puc.Minas.Varejo.Domain\Puc.Minas.Varejo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
